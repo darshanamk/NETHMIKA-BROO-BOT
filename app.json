@@ -1,5 +1,6 @@
 {
-    "name": "NETHMIKA-BROO-BOT BY SL NETHMIKA BROO ❨➊❩ dited from asena. World’s first UserBot made for WhatsApp.",
+    "name": "NETHMIKA-BROO-BOT BY NETHMIKA-BROO-BOT MODER",
+    "description": "pinky bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
     "logo": "https://avatars.githubusercontent.com/u/83832372?v=4",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/afnanplk/lastpink",
@@ -165,7 +166,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "i am alive  \n\n ```coded by afnan pallikkel```"
+            "value": "hi i am online💜```"
         },
         "BAN_MESSAGE": {
             "description": "Customizable kick Message! Use => default, to change back.",
@@ -208,7 +209,7 @@
             "value": "https://i.hizliresim.com/loUtAb.jpg"
         },
         "TAG_REPLY": {
-            "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for sri lanka",
+            "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
             "required": false          
         },
         "NO_ONLINE": {
