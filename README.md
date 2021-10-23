@@ -2,19 +2,19 @@
 ### We will always remember you..
 
 <div align="center">
-  <img border-radius: 15px src="NETHMIKA-BROO-BOT.jpg" width="170" height="170"/>
+  <img border-radius: 15px src="NETHMIKA-BROO-BOT.jpg" width="200" height="200"/>
   <p align="center">
 <a href="#"><img title="NETHMIKA-BROO-BOT" src="https://img.shields.io/badge/darshanamk-pink?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/darshanamk"><img title="Author" src="https://img.shields.io/badge/Author-darshanamk/NETHMIKA-BROO-BOT?color=black&style=for-the-badge&logo=whatsapp"></a>
+<a href=""><img title="" src="https://img.shields.io/badge/Author-darshanamk/NETHMIKA-BROO-BOT?color=black&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
 Project created by <a href="https://github.com/darshanamk">darshanamk</a> to make it public
     <br>
        | © |
-        Reserved |
+        Reserved 
     <br> 
 </p>
 
@@ -82,12 +82,17 @@ Due to Userbot; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
 Absolutely, Asena executives do not accept responsibility.
 By establishing the Asena, you are deemed to have accepted these responsibilities.
+🤤
+පරිශීලක බොට් නිසා; ඔබගේ WhatsApp ගිණුම banned කළ හැකිය.
+මෙය විවෘත මූලාශ්‍ර ව්‍යාපෘතියකි, ඔබ කරන සෑම දෙයකටම ඔබ වගකිව යුතුය. 
+නියත වශයෙන්ම,Nethmika Broo  වගකීම භාර නොගනී.
+Sl Nethmika Broo Bot  පිහිටුවීමෙන් ඔබ මෙම වගකීම් භාරගෙන ඇති බව සලකනු ලැබේ.
 ```
   
 ## Developers
   <div align="center">
     
-  [[![darshanamk](https://github.com/darshanamk.png?size=100)](https://github.com/darshanamk) 
+  [[![darshanamk](https://github.com/darshanamk.png?size=200)](https://github.com/darshanamk) 
 
 [darshanamk](https://github.com/darshanamk)
 
