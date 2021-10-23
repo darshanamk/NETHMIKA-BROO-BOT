@@ -4,8 +4,11 @@
 <div align="center">
   <img border-radius: 15px src="SLNETHMIKABROO.jpg" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="NETHMIKA-BROO-BOT" src="https://img.shields.io/badge/darshanamk-pink?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="NETHMIKA-BROO-BOT" src="https://img.shields.io/badge/SL NETHMIKA BROO BOT-pink?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
+🌀💛🌀
+
+## [![PIKACHU](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=FFA500&lines=Welcome+to+SL+BROO+BOT+💛;Created+by+NETHMIKA+BROO;This+is+the+Best++WA+bot;Subscribe+My+Youtube+Channel;SL+NETHMIKA+BROO+❨➊❩;My+Bot+Is+With+more+features)](https://bit.ly/2VM4lxF)
   <p align="center">
 <a href=""><img title="" src="https://img.shields.io/badge/Author-darshanamk/NETHMIKA-BROO-BOT?color=black&style=for-the-badge&logo=whatsapp"></a>
 </p>
