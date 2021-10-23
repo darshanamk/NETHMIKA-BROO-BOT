@@ -2,9 +2,9 @@
 ### We will always remember you..
 
 <div align="center">
-  <img border-radius: 15px src="SLNETHMIKABROO.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="20211023_151527.jpg" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="NETHMIKA-BROO-BOT" src="https://img.shields.io/badge/SL NETHMIKA BROO BOT-pink?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="NETHMIKA-BROO-BOT" src="https://img.shields.io/badge/SL BROO BOT-pink?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 🌀💛🌀
 
