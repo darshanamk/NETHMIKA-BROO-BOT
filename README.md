@@ -2,7 +2,7 @@
 ### We will always remember you..
 
 <div align="center">
-  <img border-radius: 15px src="NETHMIKA-BROO-BOT.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="SLNETHMIKABROO.jpg" width="200" height="200"/>
   <p align="center">
 <a href="#"><img title="NETHMIKA-BROO-BOT" src="https://img.shields.io/badge/darshanamk-pink?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
