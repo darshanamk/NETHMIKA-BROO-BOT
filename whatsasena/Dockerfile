@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/darshanamk/NETHMIKA-BROO-BOT /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/darshanamk/SL-BROO-BOT /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
