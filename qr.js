@@ -1,5 +1,5 @@
 /* Copyright (C) 2020 Yusuf Usta.
-PINKY V2
+SL BROO BOT V1
 */
 
 const chalk = require('chalk');
