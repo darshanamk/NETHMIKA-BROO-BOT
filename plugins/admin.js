@@ -1,5 +1,5 @@
 /* Copyright (C) 2020 Yusuf Usta.
-recodded by BADBMODER
+recodded by NETHMIKA BROO
 */
 
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
