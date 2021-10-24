@@ -1,8 +1,8 @@
-const Badboy = require('../events');
+const Nethmika = require('../events');
 const Config = require('../config');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 
-Badboy.addCommand({ pattern: 'admin ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+Nethmika.addCommand({ pattern: 'admin ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 return await message.sendMessage(`🎀 ʜᴇʀᴏᴋᴜ ᴄᴏᴍᴍᴀɴᴅs🎀
 ┏╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 ┣𝕾⃝🎀 ʀᴇsᴛᴀʀᴛ
@@ -29,7 +29,7 @@ return await message.sendMessage(`🎀 ʜᴇʀᴏᴋᴜ ᴄᴏᴍᴍᴀɴᴅs�
 ┣𝕾⃝🌹 ᴛᴀɢ
 ┗╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍`);
 }));
-Badboy.addCommand({ pattern: 'misc ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+Nethmika.addCommand({ pattern: 'misc ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 return await message.sendMessage(`🌺 ᴍɪsᴄ ᴄᴏᴍᴍᴀɴᴅs🌺
 ┏╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 ┣𝕾⃝🌺 ᴍᴘ3
@@ -59,7 +59,7 @@ return await message.sendMessage(`🌺 ᴍɪsᴄ ᴄᴏᴍᴍᴀɴᴅs🌺
 ┣𝕾⃝🌺 ɪɴғᴏ
 ┗╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍`);
 }));
-Badboy.addCommand({ pattern: 'download ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+Nethmika.addCommand({ pattern: 'download ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 return await message.sendMessage(`🎥 ᴅᴏᴡɴʟᴏᴅ ᴄᴏᴍᴍᴀɴᴅs🎥
 ┏╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 ┣𝕾⃝🎥ᴠɪᴅᴇᴏ
