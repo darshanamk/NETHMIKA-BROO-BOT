@@ -1,4 +1,4 @@
-# **PINKY V2** TERMS OF USAGE
+# **SL BROO BOT V1** TERMS OF USAGE
 
 Last Updated: **GMT-3 22/03/2021**
 
