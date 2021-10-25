@@ -1,14 +1,14 @@
 /*
 Coded by afnanplk
-re edited by BADBMODER
-Badboy
+re edited by Nethmika Broo
+SL-BROO-BOT
 */
 
-const Badboy = require('../events');
+const SL-BROO-BOT = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const translatte = require('translatte');
 const config = require('../config');
-const badboy = require('../pinky');
+const SL-BROO-BOT = require('../😻😻');
 const LanguageDetect = require('languagedetect');
 const lngDetector = new LanguageDetect();
 const Heroku = require('heroku-client');
@@ -93,7 +93,7 @@ if (config.LANG == 'ID') {
 
 if (config.WORKTYPE == 'private') {
 
-    Badboy.addCommand({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: true}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: true}, (async (message, match) => {
 
         if (!message.reply_message) {
             return await message.client.sendMessage(message.jid,Lang.NEED_REPLY,MessageType.text);
@@ -141,7 +141,7 @@ if (config.WORKTYPE == 'private') {
         succ_on_bio = 'Autobio Berhasil Dibuka!'
         succ_off_bio = 'Autobio Berhasil Ditutup!'
     }
-    Badboy.addCommand({pattern: 'autobio ?(.*)', fromMe: true, desc: auto_dsc, usage: '.autobio on / off' }, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'autobio ?(.*)', fromMe: true, desc: auto_dsc, usage: '.autobio on / off' }, (async (message, match) => {
         const bio_status = `${config.AUTOBİO}`
         if (match[1] == 'on') {
             if (bio_status == 'true') {
@@ -170,7 +170,7 @@ if (config.WORKTYPE == 'private') {
             }
         }
     }));
-    Badboy.addCommand({pattern: 'detectlang$', fromMe: true, desc: dlang_dsc}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'detectlang$', fromMe: true, desc: dlang_dsc}, (async (message, match) => {
 
         if (!message.reply_message) return await message.client.sendMessage(message.jid,Lang.NEED_REPLY, MessageType.text)
         const msg = message.reply_message.text
@@ -195,7 +195,7 @@ if (config.WORKTYPE == 'private') {
         const rep_7 = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
         await message.client.sendMessage(message.jid,rep_7,MessageType.text);
     }));
-    Badboy.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: true}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: true}, (async (message, match) => {
 
         if(match[1] === undefined || match[2] == undefined || match[3] == undefined) {
             return await message.client.sendMessage(message.jid,Lang.CURRENCY_ERROR,MessageType.text);
@@ -222,7 +222,7 @@ if (config.WORKTYPE == 'private') {
 
     if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
-        Badboy.addCommand({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
+        SL-BROO-BOT.addCommand({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
 
             if(match[1] === undefined || match[1] == "")
                 return;
@@ -249,7 +249,7 @@ if (config.WORKTYPE == 'private') {
         }));
     }
     else {
-        Badboy.addCommand({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
+        SL-BROO-BOT.addCommand({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
 
             if(match[1] === undefined || match[1] == "")
                 return;
@@ -275,7 +275,7 @@ if (config.WORKTYPE == 'private') {
             await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
         }));
     }
-    Badboy.addCommand({pattern: 'song ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'song ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
@@ -308,19 +308,19 @@ if (config.WORKTYPE == 'private') {
             });
     }));
     
-    Badboy.addCommand({pattern: 'number', fromMe: false, desc: Lang.NUMBER}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'number', fromMe: false, desc: Lang.NUMBER}, (async (message, match) => {
 
             const p_lk = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:' + badboy.OA_NAME + '\n' //created shahid-devil, please copy this with credit..
-            + 'ORG:badboy julie fam;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=' + badboy.PHONE + ':' + badboy.PHONE + ' \n'
+            + 'FN:' + SL-BROO-BOT.OA_NAME + '\n' //created shahid-devil, please copy this with credit..
+            + 'ORG:SL-BROO-BOT julie fam;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=' + SL-BROO-BOT.PHONE + ':' + SL-BROO-BOT.PHONE + ' \n'
             + 'END:VCARD'
-await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_lk}, MessageType.contact);
+await message.client.sendMessage(message.jid, {displayname: "SL-BROO-BOT", vcard: p_lk}, MessageType.contact);
 
   }));    
 
-    Badboy.addCommand({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
     
@@ -347,7 +347,7 @@ await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_l
         });
     }));
 
-    Badboy.addCommand({pattern: 'yt ?(.*)', fromMe: true, desc: Lang.YT_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'yt ?(.*)', fromMe: true, desc: Lang.YT_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
         var reply = await message.client.sendMessage(message.jid,Lang.GETTING_VIDEOS,MessageType.text);
@@ -367,7 +367,7 @@ await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_l
         await reply.delete();
     }));
 
-    Badboy.addCommand({pattern: 'wiki ?(.*)', fromMe: true, desc: Lang.WIKI_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'wiki ?(.*)', fromMe: true, desc: Lang.WIKI_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
         var reply = await message.client.sendMessage(message.jid,Lang.SEARCHING,MessageType.text);
@@ -380,7 +380,7 @@ await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_l
         await reply.delete();
     }));
 
-    Badboy.addCommand({pattern: 'img ?(.*)', fromMe: true, desc: Lang.IMG_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'img ?(.*)', fromMe: true, desc: Lang.IMG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
@@ -397,7 +397,7 @@ await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_l
         });
     }));
 
-    Badboy.addCommand({ pattern: 'github ?(.*)', fromMe: true, desc: Glang.GİTHUB_DESC }, async (message, match) => {
+    SL-BROO-BOT.addCommand({ pattern: 'github ?(.*)', fromMe: true, desc: Glang.GİTHUB_DESC }, async (message, match) => {
 
         const userName = match[1]
  
@@ -442,7 +442,7 @@ await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_l
       },
     )
 
-    Badboy.addCommand({pattern: 'lyric ?(.*)', fromMe: true, desc: Slang.LY_DESC }, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'lyric ?(.*)', fromMe: true, desc: Slang.LY_DESC }, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid, Slang.NEED, MessageType.text);
 
@@ -457,7 +457,7 @@ await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_l
 
     }));
 
-    Badboy.addCommand({pattern: "covid ?(.*)", fromMe: true, desc: Clang.COV_DESC}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: "covid ?(.*)", fromMe: true, desc: Clang.COV_DESC}, (async (message, match) => {
         if (match[1] === "") {
             try{
                 //const resp = await fetch("https://coronavirus-19-api.herokuapp.com/all").then(r => r.json());
@@ -663,7 +663,7 @@ await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_l
 }
 else if (config.WORKTYPE == 'public') {
 
-    Badboy.addCommand({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: false}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: false}, (async (message, match) => {
 
         if (!message.reply_message) {
             return await message.client.sendMessage(message.jid,Lang.NEED_REPLY,MessageType.text);
@@ -678,7 +678,7 @@ else if (config.WORKTYPE == 'public') {
             return await message.client.sendMessage(message.jid,Lang.TRANSLATE_ERROR,MessageType.text)
         }
     }));
-    Badboy.addCommand({pattern: 'detectlang$', fromMe: false, desc: dlang_dsc}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'detectlang$', fromMe: false, desc: dlang_dsc}, (async (message, match) => {
 
         if (!message.reply_message) return await message.client.sendMessage(message.jid,Lang.NEED_REPLY, MessageType.text)
         const msg = message.reply_message.text
@@ -703,7 +703,7 @@ else if (config.WORKTYPE == 'public') {
         const rep_7 = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
         await message.client.sendMessage(message.jid,rep_7,MessageType.text, { quoted: message.data });
     }));
-    Badboy.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: false}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: false}, (async (message, match) => {
 
         if(match[1] === undefined || match[2] == undefined || match[3] == undefined) {
             return await message.client.sendMessage(message.jid,Lang.CURRENCY_ERROR,MessageType.text);
@@ -728,7 +728,7 @@ else if (config.WORKTYPE == 'public') {
         }
     }));
     
-    Badboy.addCommand({pattern: 'tts (.*)', fromMe: false, desc: Lang.TTS_DESC}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'tts (.*)', fromMe: false, desc: Lang.TTS_DESC}, (async (message, match) => {
 
         if(match[1] === undefined || match[1] == "")
             return;
@@ -754,7 +754,7 @@ else if (config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio,quoted: message.data,  ptt: true});
     }));
 
-    Badboy.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
@@ -787,7 +787,7 @@ else if (config.WORKTYPE == 'public') {
             });
     }));
 
-    Badboy.addCommand({pattern: 'video ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'video ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
     
@@ -814,7 +814,7 @@ else if (config.WORKTYPE == 'public') {
         });
     }));
 
-    Badboy.addCommand({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
         var reply = await message.client.sendMessage(message.jid,Lang.GETTING_VIDEOS,MessageType.text);
@@ -834,7 +834,7 @@ else if (config.WORKTYPE == 'public') {
         await reply.delete();
     }));
 
-    Badboy.addCommand({pattern: 'wiki ?(.*)', fromMe: false, desc: Lang.WIKI_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'wiki ?(.*)', fromMe: false, desc: Lang.WIKI_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
         var reply = await message.client.sendMessage(message.jid,Lang.SEARCHING,MessageType.text);
@@ -847,7 +847,7 @@ else if (config.WORKTYPE == 'public') {
         await reply.delete();
     }));
 
-     Badboy.addCommand({pattern: 'img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
+     SL-BROO-BOT.addCommand({pattern: 'img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
@@ -864,7 +864,7 @@ else if (config.WORKTYPE == 'public') {
         });
     }));
     
-     Badboy.addCommand({pattern: '2img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
+     SL-BROO-BOT.addCommand({pattern: '2img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
@@ -881,7 +881,7 @@ else if (config.WORKTYPE == 'public') {
         });
     })); 
 
-    Badboy.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
+    SL-BROO-BOT.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
@@ -913,7 +913,7 @@ else if (config.WORKTYPE == 'public') {
             });
     }));
 
-    Badboy.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
+    SL-BROO-BOT.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
 
         const userName = match[1]
  
@@ -957,19 +957,19 @@ else if (config.WORKTYPE == 'public') {
           )
       },
     )
-      Badboy.addCommand({pattern: 'number', fromMe: false, desc: Lang.NUMBER}, (async (message, match) => {
+      SL-BROO-BOT.addCommand({pattern: 'number', fromMe: false, desc: Lang.NUMBER}, (async (message, match) => {
 
             const p_lk = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:' + badboy.OA_NAME + '\n' //created shahid-devil, please copy this with credit..
-            + 'ORG:badboy julie fam;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=' + badboy.PHONE + ':' + badboy.PHONE + ' \n'
+            + 'FN:' + SL-BROO-BOT.OA_NAME + '\n' //created shahid-devil, please copy this with credit..
+            + 'ORG:SL-BROO-BOT julie fam;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=' + SL-BROO-BOT.PHONE + ':' + SL-BROO-BOT.PHONE + ' \n'
             + 'END:VCARD'
-await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_lk}, MessageType.contact);
+await message.client.sendMessage(message.jid, {displayname: "SL-BROO-BOT", vcard: p_lk}, MessageType.contact);
 
   }));    
 
-    Badboy.addCommand({pattern: 'lyric ?(.*)', fromMe: false, desc: Slang.LY_DESC }, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'lyric ?(.*)', fromMe: false, desc: Slang.LY_DESC }, (async (message, match) => {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid, Slang.NEED, MessageType.text);
 
@@ -983,7 +983,7 @@ await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_l
         await message.client.sendMessage(message.jid, Buffer.from(buffer.data),  MessageType.image, {caption: `*${Slang.ARAT}* ` + '```' + `${match[1]}` + '```' + `\n*${Slang.BUL}* ` + '```' + tit + '```' + `\n*${Slang.AUT}* ` + '```' + son + '```' + `\n*${Slang.SLY}*\n\n` + aut });
 
     }));
-     Badboy.addCommand({pattern: 'sing ?(.*)', fromMe: false, desc: Lang.SING_DESC}, (async (message, match) => { 
+     SL-BROO-BOT.addCommand({pattern: 'sing ?(.*)', fromMe: false, desc: Lang.SING_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SING,MessageType.text);    
         let arama = await yts(match[1]);
@@ -1016,7 +1016,7 @@ await message.client.sendMessage(message.jid, {displayname: "BADBOY", vcard: p_l
             });
     }));
 
-    Badboy.addCommand({pattern: "covid ?(.*)", fromMe: false, desc: Clang.COV_DESC}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: "covid ?(.*)", fromMe: false, desc: Clang.COV_DESC}, (async (message, match) => {
         if (match[1] === "") {
             try{
                 //const resp = await fetch("https://coronavirus-19-api.herokuapp.com/all").then(r => r.json());
