@@ -1,5 +1,5 @@
-/* coded by BADBMODER
-Badboy
+/* coded by Nethmika Broo
+SL-BROO-BOT
  */
 
 const Asena = require('../events');
