@@ -1,4 +1,4 @@
-const Badboy = require('../events');
+const SL-BROO-BOT = require('../events');
 const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
 const { MessageType } = require('@adiwajshing/baileys');
