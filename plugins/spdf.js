@@ -1,4 +1,4 @@
-let Badboy = require('../events');
+let SL-BROO-BOT = require('../events');
 let {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 let fs = require('fs');
 let axios = require('axios');
