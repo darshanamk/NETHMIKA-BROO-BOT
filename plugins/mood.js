@@ -1,12 +1,12 @@
-/* CODED BY BADBMODER
-Badboy
+/* CODED BY Nethmika Broo
+SL-BROO-BOT
 */
 
-const Badboy = require('../events');
+const SL-BROO-BOT = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 
 
-Badboy.addCommand({pattern: 'mood ?(.*)', fromMe: true}, (async (message, match) => {
+SL-BROO-BOT.addCommand({pattern: 'mood ?(.*)', fromMe: true}, (async (message, match) => {
 
     await message.client.sendMessage(message.jid, '@' + message.reply_message.jid.split('@')[0] + ' *I am Searching This User’s Mood..* ', MessageType.text, {
         quotedMessage: message.reply_message.data, contextInfo: {mentionedJid: [message.reply_message.jid.replace('c.us', 's.whatsapp.net')]}
