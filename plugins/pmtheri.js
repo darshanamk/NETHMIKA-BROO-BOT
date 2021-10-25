@@ -1,5 +1,5 @@
 /* COPYRIGHT © HISHAN-SOPHIA
-   RE-CODED - BADBMODER
+   RE-CODED - Nethmika Broo
 */
 const Shazz = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -10,7 +10,7 @@ const Config = require('../config')
 
 // Inbox Block System
 // This Plugins By Hisham Muhammed 
-const INBO1 = "_~~~••• 𝔹𝕒𝕕𝕓𝕠𝕪 •••~~~_* \n\n\n *മോനേ block ചെയ്യുകയാണ്.* \n\n *REASON:THERI ITTATH KOND🤭"
+const INBO1 = "_~~~••• 𝕊𝕃-𝔹ℝ𝕆𝕆-𝔹𝕆𝕋 •••~~~_* \n\n\n *മോനേ block ചെയ്യുകയാണ്.* \n\n *REASON:THERI ITTATH KOND🤭"
  if (Config.INBO1 == 'true') {
 Shazz.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: true }, (async (message, match) => {
         let regexb1ichu = new RegExp('thayoli')
