@@ -6,7 +6,7 @@ you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
 Coded by @KursadHD
 
-re edited by BADBMODER
+re edited by Nethmika Broo
 */
 
 const MyPnky  = require('../events');
