@@ -8,10 +8,10 @@ re edited by BADBMODER
 const Ktb = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const axios = require ('axios')
-const LOAD_ING = "*✅️Connecting To INSTAGRAM*"
-const UPLOAD_ING = "*✅️Connected To INSTAGRAM* \n\n\n *DOWNLOADING STORY & UPLOADING IN PROCESS...*"
+const LOAD_ING = "*✅️Connecting To INSTAGRAM😹*"
+const UPLOAD_ING = "*✅️Connected To INSTAGRAM🙀* \n\n\n *DOWNLOADING STORY & UPLOADING IN PROCESS🙈...*"
 
-Ktb.addCommand({pattern: 'story ?(.*)', fromMe: false, desc: "Downloads STORY from instagaram" , dontAddCommandList: true }, async (message, match) => {
+Ktb.addCommand({pattern: 'story ?(.*)', fromMe: false, desc: "Downloads STORY from instagaram🙈" , dontAddCommandList: true }, async (message, match) => {
     
     var reply = await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text, { quoted: message.data });
     if (match[0].includes('install')) return;
@@ -24,8 +24,8 @@ Ktb.addCommand({pattern: 'story ?(.*)', fromMe: false, desc: "Downloads STORY fr
 
     reply = await message.client.sendMessage(message.jid,UPLOAD_ING , MessageType.text, { quoted: message.data });
     
-    if (type === 'image') return await message.sendMessage(Buffer.from(ktb.data), MessageType.image, { caption: "*ᴍᴀᴅᴇ ʙʏ ʙᴀᴅʙᴏʏ🤪*", quoted: message.data })
+    if (type === 'image') return await message.sendMessage(Buffer.from(ktb.data), MessageType.image, { caption: "*𝙼𝚊𝚍𝚎 𝙱𝚢 𝙽𝚎𝚝𝚑𝚖𝚒𝚔𝚊 𝙱𝚛𝚘𝚘🙈*", quoted: message.data })
     
-    if (type === 'video') return await message.sendMessage(Buffer.from(ktb.data), MessageType.video, { caption: "*ᴍᴀᴅᴇ ʙʏ ʙᴀᴅʙᴏʏ🤪*", quoted: message.data })
+    if (type === 'video') return await message.sendMessage(Buffer.from(ktb.data), MessageType.video, { caption: "*𝙼𝚊𝚍𝚎 𝙱𝚢 𝙽𝚎𝚝𝚑𝚖𝚒𝚔𝚊 𝙱𝚛𝚘𝚘🙈*", quoted: message.data })
     
 });
