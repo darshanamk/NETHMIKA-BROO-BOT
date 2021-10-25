@@ -58,7 +58,7 @@ if (Config.WORKTYPE == 'private') {
         
 // EXPORTING
         reply = await message.client.sendMessage(message.jid,'🤒 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙼𝙴𝙳𝙸𝙰 🤗',MessageType.text);
-        await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, caption: '◄━━⦁⦁ *ᴍᴀᴅᴇ ʙʏ 𝙱𝙰𝙳𝙱𝙾𝚈* ⦁⦁━━►'})
+        await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, caption: '◄━━⦁⦁ *𝙼𝙰𝙳𝙴 𝙱𝚈 𝙽𝙴𝚃𝙷𝙼𝙸𝙺𝙰 𝙱𝚁𝙾𝙾* ⦁⦁━━►'})
 
         
     }));
