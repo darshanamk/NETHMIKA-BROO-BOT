@@ -2,8 +2,8 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WHITE DEVIL ----»»» TERROR BOY
-re edit by BADBMODER
-Badboy
+re edit by Nethmika Broo
+SL-BROO-BOT
 */
 
 const Ktb = require('../events');
@@ -23,7 +23,7 @@ if (Config.WORKTYPE == 'private') {
 
     Ktb.addCommand({pattern: 'status', fromMe: true, desc: Lang.WS}, (async (message, match) => {
         
-     var reply = await message.client.sendMessage(message.jid,' 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚂𝚃𝙰𝚃𝚄𝚂 🚀 ',MessageType.text);
+     var reply = await message.client.sendMessage(message.jid,' 😾𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚂𝚃𝙰𝚃𝚄𝚂 🚀 ',MessageType.text);
  
         var r_text = new Array ();
 
@@ -57,7 +57,7 @@ if (Config.WORKTYPE == 'private') {
         var respovideo = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
         
 // EXPORTING
-        reply = await message.client.sendMessage(message.jid,' 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙼𝙴𝙳𝙸𝙰 🤗',MessageType.text);
+        reply = await message.client.sendMessage(message.jid,'🤒 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙼𝙴𝙳𝙸𝙰 🤗',MessageType.text);
         await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, caption: '◄━━⦁⦁ *ᴍᴀᴅᴇ ʙʏ 𝙱𝙰𝙳𝙱𝙾𝚈* ⦁⦁━━►'})
 
         
@@ -67,7 +67,7 @@ else if (Config.WORKTYPE == 'public') {
 
     Ktb.addCommand({pattern: 'status', fromMe: false, desc: Lang.WS}, (async (message, match) => {
         
-      var reply = await message.client.sendMessage(message.jid,' 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚂𝚃𝙰𝚃𝚄𝚂 🚀',MessageType.text);
+      var reply = await message.client.sendMessage(message.jid,'😾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚂𝚃𝙰𝚃𝚄𝚂 🚀',MessageType.text);
  
      
         
@@ -103,7 +103,7 @@ else if (Config.WORKTYPE == 'public') {
         var respovideo = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
         
 // EXPORTING
-        reply = await message.client.sendMessage(message.jid,' 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙼𝙴𝙳𝙸𝙰 🤗',MessageType.text);
+        reply = await message.client.sendMessage(message.jid,'🤒 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙼𝙴𝙳𝙸𝙰 🤗',MessageType.text);
         await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, caption: '◄━━⦁⦁ *𝙼𝙰𝙳𝙴 𝙱𝚈 𝙱𝙰𝙳𝙱𝙾𝚈 𝙼𝙾𝙳𝙴𝚁* ⦁⦁━━►',})
 
     }));
