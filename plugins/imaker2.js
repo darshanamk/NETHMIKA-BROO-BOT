@@ -1,8 +1,8 @@
-/*coded by shahid-devil
+/*coded by Nethmika-BROO
 LUTTAPI
 copy അടിക്കുമ്പോൾ പേര് മാറ്റരുത് ഒരുപാട് ദിവസത്തെ കഷ്ടപ്പാട് ആണ്
 Contact us :
-https://wa.me//916282185054
+https://wa.me//+94741947231
 */
 
 const Asena = require('../events');
