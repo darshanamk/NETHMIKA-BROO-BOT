@@ -2,7 +2,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 Fasil-vkn Paathu
-re edited by BADBMODER
+re edited by Nethmika Broo
 */
 
 const Asena = require('../events');
@@ -46,7 +46,7 @@ var i = Math.floor(25*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '✯ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟፝✪𝙱𝙰𝙳𝙱𝙾𝚈✯'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '✯ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟፝✪ɴᴇᴛʜᴍɪᴋᴀ✯ʙʀᴏᴏ✪'})
 
     }));
 }
@@ -86,7 +86,7 @@ var i = Math.floor(25*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '✯ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟፝✪𝙱𝙰𝙳𝙱𝙾𝚈✯'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '✯ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟፝✪ɴᴇᴛʜᴍɪᴋᴀ✯ʙʀᴏᴏ✪'})
 
     }));
 }
