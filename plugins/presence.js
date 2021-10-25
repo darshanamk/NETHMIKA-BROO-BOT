@@ -1,5 +1,5 @@
-/* Copyright (C) 2021 BADBMODER
-Badboy
+/* Copyright (C) 2021 Nethmika Broo
+SL-BROO-BOT
 */
 
 const Asena = require('../events');
