@@ -3,7 +3,7 @@ Special Thanks:
 @Unique_hunter for Helps
 */
 
-const Badboy = require('../events');
+const SL-BROO-BOT = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
@@ -13,7 +13,7 @@ const Lang = Language.getString('wallpaper');
 
 if (Config.WORKTYPE == 'public') {
 
-    Badboy.addCommand({pattern: 'wallpaper', fromMe: true, desc: Lang.WP}, (async (message, match) => {
+    SL-BROO-BOT.addCommand({pattern: 'wallpaper', fromMe: true, desc: Lang.WP}, (async (message, match) => {
 
         var r_text = new Array ();
 
